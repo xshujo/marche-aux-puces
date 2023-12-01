@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marché aux puces Métropolitain</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Polices -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+    <header>
+        <div class="horaire">
+            <!-- Horaire -->
+            <input type="checkbox" id="horaire_checkbox">
+            <label for="horaire_checkbox">
+                <div>Fermé aujourd'hui</div>
+                <div>&#9013;</div>
+            </label>
+            <ul class="horaire">
+                <li class="flex-horaire">
+                    <div class="element-horaire">Mardi 7-11</div>
+                    <div class="element-horaire">Fermé</div>
+                </li>
+                <li class="flex-horaire">
+                    <div class="element-horaire">Mercredi 8-11</div>
+                    <div class="element-horaire">Fermé</div>
+                </li>
+                <li class="flex-horaire">
+                    <div class="element-horaire">Jeudi 9-11</div>
+                    <div class="element-horaire">10a.m.–6p.m.</div>
+                </li>
+                <li class="flex-horaire">
+                    <div class="element-horaire">Vendredi 10-11</div>
+                    <div class="element-horaire">10a.m.–6p.m.</div>
+                </li>
+                <li class="flex-horaire">
+                    <div class="element-horaire">Samedi 11-11</div>
+                    <div class="element-horaire">10a.m.–5p.m.</div>
+                </li>
+                <li class="flex-horaire">
+                    <div class="element-horaire">Dimanche 12-11</div>
+                    <div class="element-horaire">10a.m.–5p.m.</div>
+                </li>
+                <li class="flex-horaire">
+                    <div class="element-horaire">Lundi 13-11</div>
+                    <div class="element-horaire">Fermé</div>
+                </li>
+            </ul>
+        </div>
+        <div class="navigation">
+            <!-- Navigation -->
+            <div class="menu">
+                <nav>
+                    <!-- Bouton burger -->
+                    <input type="checkbox" id="menu_checkbox">
+                    <label for="menu_checkbox">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </label>
+                    <!-- Menu -->
+                    <ul class="menu">
+                        <li>Accueil</li>
+                        <li>Zone restos</li>
+                        <li>Activités</li>
+                        <li>Événements</li>
+                        <li>Plan de site</li>
+                        <li>Contact</li>
+                        <li>English</li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Logo -->
+            <div class="logo"></div>
+            <!-- Bouton recherche -->
+            <div class="recherche"><i class="fas fa-search"></i></div>
+        </div>
+        <!-- Image Header -->
+        <div class="carrousel">
+        </div>
+        <!-- Titre -->
+        <h1>Le plus gros marché aux puces intérieur au Canada!</h1>
+        <!-- Bouton marchands -->
+        <button type="button">Nos marchands</button>
+    </header>
+
+    <main>
+        <!-- Navigation (body) -->
+        <section class="navigation">
+            <div id="resto"><img src="images/food.png">
+                <p>Restos</p>
+            </div>
+            <div id="activite"><img src="images/activity.png">
+                <p>Activités</p>
+            </div>
+            <div id="evenement"><img src="images/event.png">
+                <p>Événements</p>
+            </div>
+            <div id="carte"><img src="images/map.png">
+                <p>Plan du<br>marché</p>
+            </div>
+            <div id="contact"><img src="images/contact.png">
+                <p>Nous<br>contacter</p>
+            </div>
+        </section>
+        <!-- Restos -->
+        <section class="resto">
+            <h2>Visitez la zone resto!</h2>
+            <div class="resto-flex">
+                <div class="resto-item" id="cg"><img src="images/cg.jpg"></div>
+                <div class="resto-item" id="it"><img src="images/it.jpg"></div>
+                <div class="resto-item" id="ae"><img src="images/ae.jpg"></div>
+                <div class="resto-item" id="ke"><img src="images/ke.jpg"></div>
+                <div class="resto-item" id="th"><img src="images/th.jpg"></div>
+                <div class="resto-item" id="kiosque"><img src="images/kiosque.jpg"></div>
+            </div>
+        </section>
+        <!-- Club 5 étoiles -->
+        <section class="club">
+            <h2>Joignez-vous au Club! </h2>
+            <img src="images/club-5-etoiles.png">
+            <button>S'inscrire <span>&#12297;</span></button>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer -->
+        <div class="contact">
+            <p>MARCHÉ AUX PUCES MÉTROPOLITAIN</p>
+            <p>6245 Boul. Métropolitain Est</p>
+            <p>Montréal QC H1P 1X7</p>
+            <p>(514) 955-8989</p>
+        </div>
+        <div class="map"></div>
+        <div class="options">
+            <p>À propos</p>
+            <p>Horaire des jours fériés</p>
+            <p>Louer un espace</p>
+            <p>Carrières</p>
+        </div>
+        <div class="icones">
+            <img src="images/facebook.png">
+            <img src="images/youtube.png">
+            <img src="images/email.png">
+        </div>
+    </footer>
+</body>
+
+</html>
